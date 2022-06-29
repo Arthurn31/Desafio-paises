@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Desafio FETCH/ASYNC</title>
+  </head>
+
+  <body>
+    <h1>Desafio - Países</h1>
+
+    <div class="country-container">
+      <!-- Países lado esquerdo -->
+      <div class="country-list">
+        <input type="text" id="pesquisar" placeholder=" paises_pesquisar" />
+        <!--Botoes dos continentes-->
+        <div class="mae">
+          <input
+            type="button"
+            value="AmericaSul"
+            id="BtnAmericas"
+            class="btns"
+          />
+          <input type="button" value="Europa" id="BtnEuropa" class="btns" />
+          <input type="button" value="Asia" id="BtnAsia" class="btns" />
+          <input type="button" value="Oceania" id="BtnOceania" class="btns" />
+          <input type="button" value="Africa" id="BtnAfrica" class="btns" />
+          <input type="button" value="Polos" id="Polos" class="btns" />
+        </div>
+        <h5>Países (<span id="countCountries"></span>)</h5>
+        <h6>População total: <span id="totalPopulationList"></span></h6>
+        <table id="tabCountries"></table>
+      </div>
+
+      <!-- Países lado direito -->
+
+      <!-- botoes -->
+      <div class="country-list">
+        <input type="text" id="pesquisarF" placeholder=" paises_pesquisar" />
+        <div class="mae">
+          <input
+            type="button"
+            value="Americas"
+            id="BtnAmericasF"
+            class="btns"
+          />
+          <input type="button" value="Europa" id="BtnEuropaF" class="btns" />
+          <input type="button" value="Asia" id="BtnAsiaF" class="btns" />
+          <input type="button" value="Oceania" id="BtnOceaniaF" class="btns" />
+          <input type="button" value="Africa" id="BtnAfricaF" class="btns" />
+          <input type="button" value="Polos" id="PolosF" class="btns" />
+        </div>
+        <h5>Países (<span id="favoritoscount"></span>)</h5>
+        <h6>População total: <span id="totalPopulationFavorites"></span></h6>
+        <table id="tabFavorites"></table>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+body {
+  padding: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.country-container {
+  display: flex;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.country-list {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+/*css do buscar*/
+#pesquisar {
+  margin-left: 0.5%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input[type='text'] {
+  width: 10%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+input[type='text'] {
+  width: 50% !important;
+}
+/*css do pesquisarf*/
+#pesquisarF {
+  margin-left: 0.5%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input[type='text'] {
+  width: 10%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+input[type='text'] {
+  width: 50% !important;
+}
+/* botoes*/
+/* button styling */
+.btns {
+  background: transparent;
+  color: black;
+  border: 2% solid black;
+  border-radius: 8%;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 5px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.btns:hover,
+.btns:focus {
+  background-color: #00bfff;
+  color: white;
+}
